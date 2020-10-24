@@ -197,21 +197,29 @@ const Zone = () => {
                   "No data found"
                 )}
               </Card>
-
-              <Card
-                style={{
-                  width: 300,
-                  marginTop: "10px",
-                  marginLeft: "20px",
-                  border: "2px solid #c4c4c4",
-                  borderRadius: "10px",
-                  height: 136
-                }}
-              >
-                <GlobalOutlined
-                  style={{ color: "#136cdc", fontSize: "40px" }}
-                />
-              </Card>
+              <div>
+                <Card
+                  style={{
+                    width: 300,
+                    marginTop: "10px",
+                    marginLeft: "20px",
+                    border: "2px solid #c4c4c4",
+                    borderRadius: "10px",
+                    height: 136
+                  }}
+                >
+                  <GlobalOutlined
+                    style={{ color: "#136cdc", fontSize: "40px" }}
+                  />
+                </Card>
+                <Button
+                  type="dashed"
+                  danger
+                  style={{ float: "right", marginTop: "10px" }}
+                >
+                  delete
+                </Button>
+              </div>
             </div>
           ))}
         </div>
